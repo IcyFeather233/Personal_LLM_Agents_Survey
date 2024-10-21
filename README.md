@@ -36,6 +36,8 @@ Table of content:
     - [Confidentiality (of User Data)](#confidentiality-of-user-data)
     - [Integrity (of Agent Behavior)](#integrity-of-agent-behavior)
     - [Reliability (of Agent Decisions)](#reliability-of-agent-decisions)
+- [Acknowledgment](#acknowledgment)
+- [Citation](#citation)
 
 ## Key Capabilities of Personal LLM Agents
 
@@ -52,19 +54,19 @@ LLM-based Approaches
 - WebGPT: Browser-assisted question-answering with human feedback. [[paper](https://arxiv.org/abs/2112.09332)]
 - Enabling Conversational Interaction with Mobile UI Using Large Language Models. [CHI 2023] [[paper](https://doi.org/10.1145/3544548.3580895)]
 - Language Models can Solve Computer Tasks. [NeurIPS 2023] [[paper](https://openreview.net/forum?id=M6OmjAZ4CX)]
-- DroidBot-GPT: GPT-powered UI Automation for Android. [[arxiv](https://arxiv.org/abs/2304.07061)] [[code](https://github.com/MobileLLM/DroidBot-GPT)]
+- DroidBot-GPT: GPT-powered UI Automation for Android. [[arxiv](https://arxiv.org/abs/2304.07061)] [[code](https://github.com/MobileLLM/DroidBot-GPT)] 无法复现
 - Responsible Task Automation: Empowering Large Language Models as Responsible Task Automators.[[paper](https://arxiv.org/abs/2306.01242)]
-- Mind2Web: Towards a Generalist Agent for the Web. arxiv 2023 [[paper](https://arxiv.org/abs/2306.06070)][[code](https://github.com/OSU-NLP-Group/Mind2Web)][[code](https://github.com/google-research-datasets/uibert)]
-- AutoDroid: LLM-powered Task Automation in Android. [[paper](https://arxiv.org/abs/2308.15272)] [[code](https://github.com/MobileLLM/AutoDroid)]
-- You Only Look at Screens: Multimodal Chain-of-Action Agents. ArXiv Preprint [[paper](https://arxiv.org/abs/2309.11436)] [[code](https://github.com/TouristShaun/Auto-UI/tree/main)]
+- Mind2Web: Towards a Generalist Agent for the Web. arxiv 2023 [[paper](https://arxiv.org/abs/2306.06070)][[code](https://github.com/OSU-NLP-Group/Mind2Web)][[code](https://github.com/google-research-datasets/uibert)]没有代码，无法复现
+- AutoDroid: LLM-powered Task Automation in Android. [[paper](https://arxiv.org/abs/2308.15272)] [[code](https://github.com/MobileLLM/AutoDroid)] 无法复现
+- You Only Look at Screens: Multimodal Chain-of-Action Agents. ArXiv Preprint [[paper](https://arxiv.org/abs/2309.11436)] [[code](https://github.com/cooelf/Auto-GUI)] 需要显卡资源，无法复现
 - AXNav: Replaying Accessibility Tests from Natural Language. [[paper](https://arxiv.org/abs/2310.02424)]
 - Automatic Macro Mining from Interaction Traces at Scale. [[paper](https://arxiv.org/abs/2310.07023)]
 - A Zero-Shot Language Agent for Computer Control with Structured Reflection. [[paper](https://arxiv.org/abs/2310.08740)]
 - Reinforced UI Instruction Grounding: Towards a Generic UI Task Automation API. [[paper](https://arxiv.org/abs/2310.04716)]
-- GPT-4V in Wonderland: Large Multimodal Models for Zero-Shot Smartphone GUI Navigation. [[paper](https://arxiv.org/abs/2311.07562)][[code](https://github.com/zzxslp/MM-Navigator)]
+- GPT-4V in Wonderland: Large Multimodal Models for Zero-Shot Smartphone GUI Navigation. [[paper](https://arxiv.org/abs/2311.07562)][[code](https://github.com/zzxslp/MM-Navigator)] 没代码没数据，无法复现
 - UGIF: UI Grounded Instruction Following. [[paper](https://arxiv.org/abs/2211.07615)]
-- Explore, Select, Derive, and Recall: Augmenting LLM with Human-like Memory for Mobile Task Automation. [[paper](https://arxiv.org/abs/2312.03003)][[code]()]
-- CogAgent: A Visual Language Model for GUI Agents. [[paper](https://arxiv.org/abs/2312.08914)][[code](https://github.com/THUDM/CogAgent/tree/main)]
+- Explore, Select, Derive, and Recall: Augmenting LLM with Human-like Memory for Mobile Task Automation. [[paper](https://arxiv.org/abs/2312.03003)][[code](https://github.com/mobilegptsys/MobileGPT)]
+- CogAgent: A Visual Language Model for GUI Agents. [[paper](https://arxiv.org/abs/2312.08914)][[code](https://github.com/THUDM/CogAgent/tree/main)] 模型对显卡要求高，无法复现
 - From Pixels to UI Actions: Learning to Follow Instructions via Graphical User Interfaces [[paper](https://arxiv.org/abs/2312.10170)][[code](https://github.com/google-deepmind/pix2act)]
 - AppAgent: Multimodal Agents as Smartphone Users. [[paper](https://arxiv.org/abs/2312.13771)][[code](https://github.com/mnotgod96/AppAgent)]
 - GPT-4V(ision) is a Generalist Web Agent, if Grounded [[paper](https://arxiv.org/abs/2401.01614)][[code](https://github.com/OSU-NLP-Group/SeeAct)]
