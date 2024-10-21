@@ -68,10 +68,10 @@ LLM-based Approaches
 - Explore, Select, Derive, and Recall: Augmenting LLM with Human-like Memory for Mobile Task Automation. [[paper](https://arxiv.org/abs/2312.03003)][[code](https://github.com/mobilegptsys/MobileGPT)]
 - CogAgent: A Visual Language Model for GUI Agents. [[paper](https://arxiv.org/abs/2312.08914)][[code](https://github.com/THUDM/CogAgent/tree/main)] 模型对显卡要求高，无法复现
 - From Pixels to UI Actions: Learning to Follow Instructions via Graphical User Interfaces [[paper](https://arxiv.org/abs/2312.10170)][[code](https://github.com/google-deepmind/pix2act)]
-- AppAgent: Multimodal Agents as Smartphone Users. [[paper](https://arxiv.org/abs/2312.13771)][[code](https://github.com/mnotgod96/AppAgent)]
-- GPT-4V(ision) is a Generalist Web Agent, if Grounded [[paper](https://arxiv.org/abs/2401.01614)][[code](https://github.com/OSU-NLP-Group/SeeAct)]
-- SeeClick: Harnessing GUI Grounding for Advanced Visual GUI Agents [[paper](https://arxiv.org/abs/2401.10935)][[code](https://github.com/njucckevin/SeeClick)]
-- Octopus v2: On-device language model for super agent [[paper](https://arxiv.org/abs/2404.01744)][[code](https://huggingface.co/NexaAIDev/Octopus-v2)]
+- AppAgent: Multimodal Agents as Smartphone Users. [[paper](https://arxiv.org/abs/2312.13771)][[code](https://github.com/mnotgod96/AppAgent)] 可以复现
+- GPT-4V(ision) is a Generalist Web Agent, if Grounded [[paper](https://arxiv.org/abs/2401.01614)][[code](https://github.com/OSU-NLP-Group/SeeAct)] 可以复现
+- SeeClick: Harnessing GUI Grounding for Advanced Visual GUI Agents [[paper](https://arxiv.org/abs/2401.10935)][[code](https://github.com/njucckevin/SeeClick)] 需要显卡资源，无法复现
+- Octopus v2: On-device language model for super agent [[paper](https://arxiv.org/abs/2404.01744)][[code](https://huggingface.co/NexaAIDev/Octopus-v2)] 需要显卡资源，无法复现
 - Ferret-UI: Grounded Mobile UI Understanding with Multimodal LLMs [[paper](https://arxiv.org/abs/2404.05719)]
 - Octopus v3: Technical Report for On-device Sub-billion Multimodal AI Agent [[paper](https://arxiv.org/html/2404.11459v1)]
 
