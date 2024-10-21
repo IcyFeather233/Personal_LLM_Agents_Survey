@@ -150,6 +150,8 @@ Memorization is about the ability of Personal LLM Agents to maintain information
 
 The efficiency of LLM agents is closely related to the efficiency of LLM inference, LLM training/customization, and memory management.
 
+这个仓库是做模型优化的，都是需要显卡的，略过
+
 ### Efficient LLM Inference & Training
 
 LLM inference/training efficiency has been comprehensively summarized in existing surveys (e.g. [this link](https://github.com/AIoT-MLSys-Lab/Efficient-LLMs-Survey)). Therefore, we omit this part in this list.
@@ -213,9 +215,9 @@ Security & Privacy of AI/ML is a huge area with lots of related papers. Here we 
 ### Confidentiality (of User Data)
 
 - THE-X: Privacy-Preserving Transformer Inference with Homomorphic Encryption. [ACL, 2022][[paper](https://arxiv.org/pdf/2206.00216.pdf)]
-- TextFusion: Privacy-Preserving Pre-trained Model Inference via Token Fusion [EMNLP, 2022] [[paper](https://aclanthology.org/2022.emnlp-main.572.pdf)][[code](https://github.com/xzhou20/TextFusion)]
-- TextObfuscator: Making Pre-trained Language Model a Privacy Protector via Obfuscating Word Representations. [ACL, 2023] [[paper](https://aclanthology.org/2023.findings-acl.337.pdf)][[code](https://github.com/xzhou20/TextObfuscator)]
-- Adversarial Training for Large Neural Language Models. [arXiv, 2020] [[paper](https://arxiv.org/pdf/2004.08994.pdf)][[code](https://github.com/namisan/mt-dnn)]
+- TextFusion: Privacy-Preserving Pre-trained Model Inference via Token Fusion [EMNLP, 2022] [[paper](https://aclanthology.org/2022.emnlp-main.572.pdf)][[code](https://github.com/xzhou20/TextFusion)] 需要显卡
+- TextObfuscator: Making Pre-trained Language Model a Privacy Protector via Obfuscating Word Representations. [ACL, 2023] [[paper](https://aclanthology.org/2023.findings-acl.337.pdf)][[code](https://github.com/xzhou20/TextObfuscator)] 需要显卡
+- Adversarial Training for Large Neural Language Models. [arXiv, 2020] [[paper](https://arxiv.org/pdf/2004.08994.pdf)][[code](https://github.com/namisan/mt-dnn)] 太老了，而且需要显卡
 
 
 ### Integrity (of Agent Behavior)
