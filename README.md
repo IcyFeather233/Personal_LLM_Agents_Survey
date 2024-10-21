@@ -75,43 +75,30 @@ LLM-based Approaches
 - Ferret-UI: Grounded Mobile UI Understanding with Multimodal LLMs [[paper](https://arxiv.org/abs/2404.05719)]
 - Octopus v3: Technical Report for On-device Sub-billion Multimodal AI Agent [[paper](https://arxiv.org/html/2404.11459v1)]
 
-Traditional Approaches
-
-- uLink: Enabling User-Defined Deep Linking to App Content. [[Mobisys 2016](https://doi.org/10.1145/2906388.2906416)] 
-- SUGILITE: Creating Multimodal Smartphone Automation by Demonstration. [CHI 2017] [[paper](https://doi.org/10.1145/3025453.3025483)][[code](https://github.com/tobyli/Sugilite_development)]
-- Programming IoT devices by demonstration using mobile apps. [IS-EUD 2017]
-- Kite: Building Conversational Bots from Mobile Apps. [MobiSys 2018]. [[paper](https://doi.org/10.1145/3210240.3210339)]
-- Reinforcement Learning on Web Interfaces using Workflow-Guided Exploration. [ICLR 2018]. [[paper](https://arxiv.org/abs/1802.08802)][[code](https://github.com/stanfordnlp/wge)]
-- Mapping Natural Language Instructions to Mobile UI Action Sequences. [ACL 2020] [[paper](https://arxiv.org/pdf/tbd.pdf)][[code](https://github.com/google-research-datasets/seq2act)] 
-- Glider: A Reinforcement Learning Approach to Extract UI Scripts from Websites. [SIGIR 2021] [[paper](https://yuanchun-li.github.io/static/files/SIGIR2021_Glider.pdf)]
-- UIBert: Learning Generic Multimodal Representations for UI Understanding. [IJCAI-21] [[paper](https://doi.org/10.24963/ijcai.2021/235)]
-- META-GUI: Towards Multi-modal Conversational Agents on Mobile GUI. [EMNLP 2022][[paper](https://arxiv.org/abs/2205.11029)][[code](https://x-lance.github.io/META-GUI-Leaderboard/)]
-- UINav: A maker of UI automation agents. [[paper](https://arxiv.org/abs/2312.10170)]
-
 
 #### Benchmarks of UI Automation
-- Mapping natural language commands to web elements. [EMNLP 2018] [[paper](https://doi.org/10.18653/v1/D18-1540)][[code](https://github.com/stanfordnlp/phrasenode)]
+- Mapping natural language commands to web elements. [EMNLP 2018] [[paper](https://doi.org/10.18653/v1/D18-1540)][[code](https://github.com/stanfordnlp/phrasenode)] 太老了，而且需要显卡
 - UIBert: Learning Generic Multimodal Representations for UI Understanding. [IJCAI-21] [[paper](https://doi.org/10.24963/ijcai.2021/235)]
-- Mapping Natural Language Instructions to Mobile UI Action Sequences. [ACL 2020] [[paper](https://arxiv.org/pdf/tbd.pdf)][[code](https://github.com/google-research-datasets/seq2act)] 
-- A Dataset for Interactive Vision Language Navigation with Unknown Command Feasibility. [ECCV 2022][[paper](https://arxiv.org/abs/2202.02312)] [[code](https://github.com/aburns4/MoTIF)]
-- META-GUI: Towards Multi-modal Conversational Agents on Mobile GUI. [EMNLP 2022][[paper](https://arxiv.org/abs/2205.11029)][[code](https://x-lance.github.io/META-GUI-Leaderboard/)]
+- Mapping Natural Language Instructions to Mobile UI Action Sequences. [ACL 2020] [[paper](https://arxiv.org/pdf/tbd.pdf)][[code](https://github.com/google-research-datasets/seq2act)] 太老了，而且只有数据没有代码
+- A Dataset for Interactive Vision Language Navigation with Unknown Command Feasibility. [ECCV 2022][[paper](https://arxiv.org/abs/2202.02312)] [[code](https://github.com/aburns4/MoTIF)] 需要显卡，无法复现
+- META-GUI: Towards Multi-modal Conversational Agents on Mobile GUI. [EMNLP 2022][[paper](https://arxiv.org/abs/2205.11029)][[code](https://x-lance.github.io/META-GUI-Leaderboard/)] 需要显卡，无法复现
 - UGIF: UI Grounded Instruction Following. [[paper](https://arxiv.org/abs/2211.07615)]
-- ASSISTGUI: Task-Oriented Desktop Graphical User Interface Automation. [[paper](https://arxiv.org/abs/2312.13108)][[code](https://github.com/showlab/assistgui)]
-- Mind2Web: Towards a Generalist Agent for the Web. arxiv 2023 [[paper](https://arxiv.org/abs/2306.06070)][[code](https://github.com/OSU-NLP-Group/Mind2Web)][[code](https://github.com/google-research-datasets/uibert)]
-- Android in the Wild: A Large-Scale Dataset for Android Device Control. [[paper](https://arxiv.org/abs/2307.10088)][[code](https://github.com/google-research/google-research/tree/master/android_in_the_wild)]
-- Empowering LLM to use Smartphone for Intelligent Task Automation. [[paper](https://arxiv.org/abs/2308.15272)] [[code](https://github.com/MobileLLM/AutoDroid)]
-- World of Bits: An Open-Domain Platform for Web-Based Agents. [ICML 2017] [[paper](https://dl.acm.org/doi/10.5555/3305890.3306005)][[code](https://github.com/Farama-Foundation/miniwob-plusplus)]
-- Reinforcement Learning on Web Interfaces using Workflow-Guided Exploration. [ICLR 2018]. [[paper](https://arxiv.org/abs/1802.08802)][[code](https://github.com/stanfordnlp/wge)]
+- ASSISTGUI: Task-Oriented Desktop Graphical User Interface Automation. [[paper](https://arxiv.org/abs/2312.13108)][[code](https://github.com/showlab/assistgui)] 没有代码，无法复现
+- Mind2Web: Towards a Generalist Agent for the Web. arxiv 2023 [[paper](https://arxiv.org/abs/2306.06070)][[code](https://github.com/OSU-NLP-Group/Mind2Web)][[code](https://github.com/google-research-datasets/uibert)] 没有代码，无法复现
+- Android in the Wild: A Large-Scale Dataset for Android Device Control. [[paper](https://arxiv.org/abs/2307.10088)][[code](https://github.com/google-research/google-research/tree/master/android_in_the_wild)] 有colab文件可以quickstart
+- Empowering LLM to use Smartphone for Intelligent Task Automation. [[paper](https://arxiv.org/abs/2308.15272)] [[code](https://github.com/MobileLLM/AutoDroid)] 无法复现
+- World of Bits: An Open-Domain Platform for Web-Based Agents. [ICML 2017] [[paper](https://dl.acm.org/doi/10.5555/3305890.3306005)][[code](https://github.com/Farama-Foundation/miniwob-plusplus)] 很老，但是可以复现
+- Reinforcement Learning on Web Interfaces using Workflow-Guided Exploration. [ICLR 2018]. [[paper](https://arxiv.org/abs/1802.08802)][[code](https://github.com/stanfordnlp/wge)] 太老了
 - WebShop: Towards Scalable Real-World Web Interaction with Grounded Language Agents. [NeurIPS 2022] [[paper](https://proceedings.neurips.cc/paper_files/paper/2022/file/82ad13ec01f9fe44c01cb91814fd7b8c-Paper-Conference.pdf)]
-- AndroidEnv: A Reinforcement Learning Platform for Android [[paper](https://arxiv.org/abs/2105.13231)][[code](https://github.com/google-deepmind/android_env)]
-- Mobile-Env: An Evaluation Platform and Benchmark for Interactive Agents in LLM Era. [[paper](https://arxiv.org/abs/2305.08144)][[code](https://github.com/X-LANCE/Mobile-Env)]
-- WebArena: A Realistic Web Environment for Building Autonomous Agents. [[paper](https://arxiv.org/abs/2307.13854)][[code](https://github.com/web-arena-x/webarena)]
-- OmniACT: A Dataset and Benchmark for Enabling Multimodal Generalist Autonomous Agents for Desktop and Web. [[paper](https://arxiv.org/abs/2402.17553)][[code](https://huggingface.co/datasets/Writer/omniact)]
-- AutoWebGLM: Bootstrap And Reinforce A Large Language Model-based Web Navigating Agent [[paper](https://arxiv.org/abs/2404.03648)][[code](https://github.com/THUDM/AutoWebGLM)]
-- VisualWebBench: How Far Have Multimodal LLMs Evolved in Web Page Understanding and Grounding? [[paper](https://arxiv.org/abs/2404.05955)][[code](https://github.com/VisualWebBench/VisualWebBench)]
-- ScreenAgent: A Vision Language Model-driven Computer Control Agent [[paper](https://arxiv.org/abs/2402.07945)][[code](https://github.com/niuzaisheng/ScreenAgent)]
-- AgentStudio: A Toolkit for Building General Virtual Agents [[paper](https://arxiv.org/abs/2403.17918)][[code](https://github.com/SkyworkAI/agent-studio)]
-- OSWorld: Benchmarking Multimodal Agents for Open-Ended Tasks in Real Computer Environments [[paper](https://arxiv.org/abs/2404.07972)][[code](https://github.com/xlang-ai/OSWorld)]
+- AndroidEnv: A Reinforcement Learning Platform for Android [[paper](https://arxiv.org/abs/2105.13231)][[code](https://github.com/google-deepmind/android_env)] 强化学习，需要显卡
+- Mobile-Env: An Evaluation Platform and Benchmark for Interactive Agents in LLM Era. [[paper](https://arxiv.org/abs/2305.08144)][[code](https://github.com/X-LANCE/Mobile-Env)] 难以复现
+- WebArena: A Realistic Web Environment for Building Autonomous Agents. [[paper](https://arxiv.org/abs/2307.13854)][[code](https://github.com/web-arena-x/webarena)] 步骤太复杂，难以复现
+- OmniACT: A Dataset and Benchmark for Enabling Multimodal Generalist Autonomous Agents for Desktop and Web. [[paper](https://arxiv.org/abs/2402.17553)][[code](https://huggingface.co/datasets/Writer/omniact)] 这只是一个数据集
+- AutoWebGLM: Bootstrap And Reinforce A Large Language Model-based Web Navigating Agent [[paper](https://arxiv.org/abs/2404.03648)][[code](https://github.com/THUDM/AutoWebGLM)] 无法复现
+- VisualWebBench: How Far Have Multimodal LLMs Evolved in Web Page Understanding and Grounding? [[paper](https://arxiv.org/abs/2404.05955)][[code](https://github.com/VisualWebBench/VisualWebBench)] 这是个Benchmark，不是agent
+- ScreenAgent: A Vision Language Model-driven Computer Control Agent [[paper](https://arxiv.org/abs/2402.07945)][[code](https://github.com/niuzaisheng/ScreenAgent)] 可以复现
+- AgentStudio: A Toolkit for Building General Virtual Agents [[paper](https://arxiv.org/abs/2403.17918)][[code](https://github.com/SkyworkAI/agent-studio)] 这是一个toolkit，但是文档不详细，很难跑起来
+- OSWorld: Benchmarking Multimodal Agents for Open-Ended Tasks in Real Computer Environments [[paper](https://arxiv.org/abs/2404.07972)][[code](https://github.com/xlang-ai/OSWorld)] 可以复现
 
 
 ### Sensing
